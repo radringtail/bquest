@@ -51,7 +51,7 @@ var objectiveData = [
 {"name": "End with 100+ Steps Taken", "difficulty": 1, "group": "steps"},
 {"name": "End with 120+ Steps Taken", "difficulty": 2, "group": "steps"},
 
-{"name": "End with 30+ Rooms", "difficulty": 3, "group": "totalrooms"},
+{"name": "End with 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
 {"name": "End with 35+ Rooms", "difficulty": 3, "group": "totalrooms"},
 
 {"name": "Eat in Dining Room 2 times", "difficulty": 2, "group": "dining"},
@@ -104,7 +104,6 @@ var objectiveData = [
 {"name": "8+ Inventory Items", "difficulty": 2, "group": "inventory"},
 {"name": "10+ Inventory Items", "difficulty": 2, "group": "inventory"},
 
-{"name": "Use 2 Upgrade Disks", "difficulty": 2, "group": "disks"},
 {"name": "Use 3 Upgrade Disks", "difficulty": 2, "group": "disks"},
 {"name": "Use 4 Upgrade Disks", "difficulty": 3, "group": "disks"},
 {"name": "Use 5 Upgrade Disks", "difficulty": 4, "group": "disks"},
