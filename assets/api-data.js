@@ -44,10 +44,10 @@ var objectiveData = [
 {"name": "Cash a Payroll Check", "difficulty": 3},
 {"name": "Operate a Powered Room's Device", "difficulty": 3},
 {"name": "Obtain Gear Wrench, Watering Can, or Telescope", "difficulty": 3},
+{"name": "Gain Chess Power", "difficulty": 3},
 
 // ungrouped very hard
 {"name": "Enter Antechamber", "difficulty": 4},
-{"name": "Gain Chess Power", "difficulty": 4},
 
 //grouped squares (only one of each group can appear)
 {"name": "End with 100+ Steps Taken", "difficulty": 1, "group": "steps"},
@@ -209,7 +209,7 @@ var objectiveDataHard = [
 {"name": "Draft 2 Bishops in a Day", "difficulty": "2"},
 {"name": "Permanently Increase a Room's Rarity", "difficulty": "2"},
 {"name": "Draft 2+ Copies of Room in a Day", "difficulty": "2"},
-{"name": "Draft West and East Wing Halls", "difficulty": "2"},
+{"name": "Draft West and East Wing Halls on Same Day", "difficulty": "2"},
 {"name": "Read Swim Bird", "difficulty": "2"},
 {"name": "Eat Salted Food", "difficulty": "2"},
 {"name": "Become Cursed", "difficulty": "2"},
@@ -339,8 +339,8 @@ var objectiveDataHard = [
 {"name": "Eat in Dining Room 3 times", "difficulty": "4", "group": "dining"},
 {"name": "Eat in Dining Room 5 times", "difficulty": "6", "group": "dining"},
 
-{"name": "Use two unique Elevators", "difficulty": "3", "group": "elevator"},
-{"name": "Use three unique Elevators", "difficulty": "5", "group": "elevator"},  
+{"name": "Use 2 unique Elevators", "difficulty": "3", "group": "elevator"},
+{"name": "Use 3 unique Elevators", "difficulty": "5", "group": "elevator"},  
   
 {"name": "Add 2 New Floorplans", "difficulty": "1", "group": "floorplan"},
 {"name": "Add 3 New Floorplans", "difficulty": "3", "group": "floorplan"},
